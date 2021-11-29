@@ -178,6 +178,8 @@ iframe {
   height: auto;
   position: center;
   aspect-ratio: 16 / 9;
+  width: 560;
+  height: 315;
 }
 
 .video {
