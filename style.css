@@ -1,0 +1,160 @@
+/* font-family: "Cinzel", serif;
+font-family: "Raleway", sans-serif; */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  /* display: block; */
+  width: 100%;
+  height: auto;
+}
+
+header {
+  position: sticky;
+  background-color: darkblue;
+  padding: 2rem;
+}
+.liste {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+  line-height: 2;
+}
+footer {
+  font-family: "Cinzel", serif;
+  color: white;
+  background-color: darkblue;
+}
+
+.overskrift {
+  font-family: "Bebas Neue", cursive;
+  font-size: 4rem;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+  font-weight: 500;
+  color: darkblue;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
+  font-size: 3rem;
+  color: darkblue;
+  text-align: center;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* farveskift når man kører over teksten i header*/
+a {
+  font-family: "Raleway", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+a:hover {
+  color: rgb(54, 127, 211);
+}
+
+hr {
+  color: darkblue;
+}
+
+/*Splashbillede -firstsection*/
+#first_section {
+  display: grid;
+  grid-column: 2;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.section_wrapper1 {
+  width: 100%;
+  background-image: url(splashbillede.jpg);
+  background-size: cover;
+  aspect-ratio: 1000/500;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  top: 100px;
+}
+
+/*splash tekst*/
+.splashtxt {
+  top: 200px;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  grid-column: 1/2;
+  grid-row: 2/2;
+  display: grid;
+}
+
+/* tekst til first section */
+.first1 {
+  display: grid;
+  grid-column: 2;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.first2 {
+  display: grid;
+  grid-column: 2;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* grid til billederne i section tre*/
+.section_wrapper3 {
+  display: grid;
+  /* grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 300px 300px; */
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+/* billedernes placering */
+.dribler {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.portraet {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  width: 49%;
+}
+
+.bold {
+  grid-column: 2/3;
+  grid-row: 2/2;
+}
+
+.bold_ligger {
+  grid-column: 3/3;
+  grid-row: 1/2;
+}
+
+.loeber {
+  grid-column: 3/3;
+  grid-row: 2/2;
+}
