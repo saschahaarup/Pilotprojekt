@@ -18,7 +18,6 @@ header {
 }
 .liste {
   position: sticky;
-  position: -webkit-sticky;
   top: 0;
   display: flex;
   justify-content: space-between;
@@ -179,10 +178,7 @@ hr {
 iframe {
   width: 100%;
   height: auto;
-  position: center;
   aspect-ratio: 16 / 9;
-  width: 560;
-  height: 315;
 }
 
 .video {
@@ -191,5 +187,4 @@ iframe {
   aspect-ratio: 16 / 9;
   display: block;
   gap: 10px;
-  position: center;
 }
