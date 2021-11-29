@@ -103,9 +103,11 @@ hr {
 .splashtxt {
   font-family: "Bebas Neue", cursive;
   color: white;
-  grid-column: 1/2;
-  grid-row: 1;
-  display: grid;
+  font-size: 4rem;
+  position: absolute;
+  top: 80%;
+  left: 26%;
+  transform: translate(-50%, -50%);
 }
 
 /* tekst til first section */
@@ -127,7 +129,6 @@ hr {
 }
 
 /* grid til billederne i section tre*/
-
 .section_wrapper3 {
   display: grid;
   /* grid-template-columns: 400px 400px 400px;
@@ -162,10 +163,12 @@ hr {
   grid-row: 2/3;
 }
 
+/* layoutdiagram */
 .diagram {
   width: 60%;
 }
 
+/* interveiw video + youtube video*/
 .iframe_wrapper {
   display: grid;
   justify-content: center;
